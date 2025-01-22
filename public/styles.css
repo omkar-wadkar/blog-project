@@ -1,0 +1,26 @@
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #0dcaf0;
+}
+
+.double-chevron {
+    fill: #333;
+    transition: transform 0.3s ease;
+  }
+  
+.chevron-container:hover .double-chevron {
+    animation: slide 0.5s ease forwards;
+}
+  
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(10px);
+    }
+}
+
+.top:hover {
+  opacity:150%;
+}
